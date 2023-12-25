@@ -1,6 +1,6 @@
 const form = document.getElementById('form');
 const input = document.getElementById('input');
-const main = document.querySelector('main');
+const cont = document.getElementById('cont')
 
 const ui = new UI();
 

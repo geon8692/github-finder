@@ -6,7 +6,7 @@ class UI {
         this.result.innerHTML = `
         <div class="container" id="profile-container">
             <div id="profile">
-                <img src="${user.avatar_url}" alt="avatar">
+                <img src="${user.avatar_url}" alt="avatar" id="avatar">
                 <div id="info">
                     <div class="btn-list">
                         <button class="blue">Public Repos: ${user.public_repos}</button>
@@ -67,6 +67,8 @@ class UI {
                 <button class="green">Forks: ${repos[4].forks_count}</button>
             </div>
         </div>
+        <h2>Contributions</h2>
+        <img src="https://ghchart.rshah.org/${user.login}" id="cont">
         `
     }
 }

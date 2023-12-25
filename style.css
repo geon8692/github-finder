@@ -74,7 +74,7 @@ main {
     height: 35px;
 }
 
-img {
+#avatar {
     height: 200px;
 }
 
@@ -128,7 +128,6 @@ h2 {
     margin: 30px 0 20px 0;
 }
 
-/* footer 구현할 것 */
 footer {
     height: 5rem;
     background-color: #EAEAEA;
